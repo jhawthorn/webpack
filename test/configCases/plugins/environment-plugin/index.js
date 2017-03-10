@@ -28,3 +28,8 @@ it("should import multiple process.env var with default values", () => {
 	if(process.env.HHH !== "hhh")
 		require.include("hhh");
 });
+
+it("test", () => {
+	if(process.env.III !== "")
+		require.include("iii");
+});
